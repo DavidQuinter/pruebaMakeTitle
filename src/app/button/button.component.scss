@@ -1,0 +1,40 @@
+.btn{
+    padding: 3px 12px;
+    border-radius: 4px;
+    display: flex;
+    gap: 4px;
+    font-family: "Noto Sans";
+    font-weight: 500;
+}
+
+.btn-primary{
+    background-color: var(--color-gr-2);
+    color: var(--color-bk-2);
+    border: solid 1.5px var(--color-bk-2);
+    transition: background-color .4s ease-in-out, color .3s ease-in-out, padding .1s ease-in-out;
+}
+
+.btn-secondary{
+    background-color: var(--color-gr-5);
+    color: var(--color-bk-2);
+    transition: background-color .4s ease-in-out, color .3s ease-in-out, padding .1s ease-in-out;
+    border: none;
+}
+
+.btn-primary:hover, .btn-primary.active{
+    background-color: var(--color-bk-2);
+    color: var(--color-gr-2);
+}
+
+.btn-secondary:hover, .btn-secondary:active{
+    background-color: var(--color-gr-4);
+    color: var(--color-bk-1);
+}
+
+.btn-primary:active{
+    padding: 2.6px 11.5px;
+}
+
+.btn-secondary:active{
+    padding: 2.6px 11.4px;
+}

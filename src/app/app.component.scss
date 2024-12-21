@@ -1,0 +1,12 @@
+.app-layout{
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(9, calc(100vh / 9));
+}
+.panel-assets-container{
+    grid-area: 2/1/9/4;
+    background-color: var(--color-gr-2);
+    border-radius: 8px;
+    margin:0 10px;
+    padding: 20px;
+}

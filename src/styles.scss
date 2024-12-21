@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --color-bk-1: #3A3B3D;
+    --color-bk-2: #424345;
+    --color-gr-1: #D9D9D9;
+    --color-gr-2: #F2F5FC;
+    --color-gr-3: #DDE0E7;
+    --color-gr-4: #CED1D7;
+    --color-gr-5: #E0E3E9;
+}
+
+$color-bk-1: var(--color-bk-1);
+$color-bk-2: var(--color-bk-2);
+$color-gr-1: var(--color-gr-1);
+$color-gr-2: var(--color-gr-2);
+$color-gr-3: var(--color-gr-3);
+
+html,
+body {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    box-sizing: border-box;
+    height:fit-content;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  }
